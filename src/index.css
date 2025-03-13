@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#about, #mission, #vision, #services, #contact{
+    scroll-margin-top: 70px;
+}
