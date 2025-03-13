@@ -9,7 +9,7 @@ const OurVission = () => {
           <img
             src="/images/img4.jpeg"
             alt="About Us"
-            className="w-[80%] h-auto rounded-lg shadow-lg "
+            className="w-[80%] h-auto rounded-lg shadow-lg mx-auto lg:m-0"
           />
         </div>
 

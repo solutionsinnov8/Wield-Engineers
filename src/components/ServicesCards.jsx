@@ -7,7 +7,7 @@ const services = [
     imgSrc: "/images/img5.jpeg",
     title: "SURVEYING AND MAPPING",
     description:
-      "Accurate surveying and mapping are the foundation of anysuccessful construction project.We utilize state-of-the-art Total Stations, Drones for Aerial Mapping, GIS Software (ArcGIS, QGIS), and CAD Software (AutoCAD Civil 3D, MicroStation) to conduct precise land surveys and topographic mapping. Our experienced surveyors ensure that all measurements are accurate, aiding in effective project planning and execution.",
+      "Accurate surveying and mapping are the foundation of anysuccessful construction project.We utilize state-of-the-art Total Stations, Drones for Aerial Mapping, and CAD Software (AutoCAD Civil 3D, MicroStation) to conduct precise land surveys and topographic mapping. Our experienced surveyors ensure that all measurements are accurate.",
     buttonText: "Let's Talk",
   },
   {
@@ -22,7 +22,7 @@ const services = [
     id: 3,
     imgSrc: "/images/img7.jpeg",
     title: "EXCAVATION AND EARTHWORKS",
-    description: "We specialize in bulk excavation, trenching, and land grading using high-performance machinerysuch as Excavators, Bulldozers, Motor Graders, Dump Trucks, and Vibratory Rollers. Our geotechnical engineers utilize GeoStudio and PLAXIS to assess soil stability and optimize earthmoving operations.Whetherforfoundation preparation orlarge- scale site development, ourteamensures precision and efficiency.",
+    description: "We specialize in bulk excavation, trenching, and land grading using high-performance machinerysuch as Excavators, Bulldozers, Motor Graders, Dump Trucks, and Vibratory Rollers. Our geotechnical engineers utilize GeoStudio and PLAXIS to assess soil stability and optimize earthmoving operations.Whetherforfoundation preparation orlarge- scale site development.",
 
     buttonText: "Let's Talk",
   },
@@ -45,18 +45,19 @@ const ServicesCards = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white shadow-lg rounded-lg overflow-hidden w-full sm:w-80 lg:w-96"
+              className="bg-white shadow-lg rounded-lg overflow-hidden w-full sm:w-80 lg:w-96 relative"
             >
-              <img
-                src={service.imgSrc}
-                alt={service.title}
-                className="w-full h-48 object-cover"
-              />
-
-              <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-[#163879] mb-4">
+              <div className="relative">
+                <img
+                  src={service.imgSrc}
+                  alt={service.title}
+                  className="w-full h-48 object-cover"
+                />
+                <h3 className="absolute inset-0 flex items-center text-center justify-center text-white text-xl font-bold bg-black/50">
                   {service.title}
                 </h3>
+              </div>
+              <div className="p-6 text-center flex flex-col">
                 <p className="text-gray-600 mb-6">{service.description}</p>
                 <a href="/#contact">
                   <button className="bg-[#163879] text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">
@@ -65,6 +66,7 @@ const ServicesCards = () => {
                 </a>
               </div>
             </div>
+
           ))}
         </div>
         <Link to="/">

@@ -29,7 +29,7 @@ oftime.
           <img
             src="/images/img3.jpeg"
             alt="About Us"
-            className="w-[80%] h-auto rounded-lg shadow-lg "
+            className="w-[80%] h-auto rounded-lg shadow-lg mx-auto lg:m-0"
           />
         </div>
       </div>

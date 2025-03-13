@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,36 +20,36 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 HOME
-              </a>
-              <a
-                href="/#about"
+              </Link>
+              <Link
+                to="/about"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 ABOUT
-              </a>
-              <a
-                href="/#mission"
+              </Link>
+              <Link
+                to="/experties"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 OUR EXPERTISE
-              </a>
-              <a
-                href="/#vision"
+              </Link>
+              <Link
+                to="/registration"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 REGISTRATIONS
-              </a>
-              <a
-                href="/#contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 CONTACT US
-              </a>
+              </Link>
             </div>
           </div>
           {/* Hamburger Icon */}
@@ -99,41 +100,41 @@ const Navbar = () => {
         }`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a
-            href="/"
+          <Link
+            to="/"
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             HOME
-          </a>
+          </Link>
           <a
-            href="/#about"
+            to="/about"
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             ABOUT
           </a>
-          <a
-            href="/#mission"
+          <Link
+            to="/experties"
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             OUR EXPERTISE
-          </a>
-          <a
-            href="/#vision"
+          </Link>
+          <Link
+            to="/registration"
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             REGISTRATIONS
-          </a>
-          <a
-            href="/#contact"
+          </Link>
+          <Link
+            to="/contact"
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             CONTACT US
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

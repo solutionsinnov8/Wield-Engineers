@@ -3,14 +3,13 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-16" id="contact">
+    <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-[75px]" id="contact">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-5xl font-extrabold text-[#163879] mb-6">Get in Touch</h2>
         <p className="text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
           We'd love to hear from you! Whether you have a question or need assistance, 
           feel free to reach out via any of the methods below.
         </p>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Address Card */}
           <div className="bg-white shadow-xl rounded-2xl p-8 flex flex-col items-center transition-transform transform hover:scale-105">

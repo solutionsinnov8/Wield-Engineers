@@ -9,7 +9,7 @@ const AboutUs = () => {
           <img
             src="/images/img2.jpeg"
             alt="About Us"
-            className="w-[90%] h-auto rounded-lg shadow-lg "
+            className="w-[90%] h-auto rounded-lg shadow-lg mx-auto lg:m-0"
           />
         </div>
 
