@@ -5,6 +5,7 @@ import OurMission from './components/OurMission'
 import OurVission from './components/OurVission'
 import ServicesCards from './components/ServicesCards'
 import ContactUs from './components/ContactUs'
+import Registrations from './pages/Registrations'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <OurMission />
       <OurVission />
       <ServicesCards />
+      <Registrations  />
       <ContactUs />
     </div>
   )

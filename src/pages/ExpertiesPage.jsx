@@ -85,7 +85,7 @@ const ExpertiesPage = () => {
     return (
         <section className="py-16 bg-gray-50 mt-[60px]" id="services">
             <div className="container mx-auto px-6 flex flex-col items-center">
-                <h2 className="text-4xl font-bold text-center mb-12 text-[#163879]">
+                <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 text-[#163879]">
                     OUR EXPERTISE
                 </h2>
                 <p className="text-gray-700 text-lg text-center mb-12 w-full md:w-[70%] mx-auto">

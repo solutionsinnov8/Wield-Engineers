@@ -107,13 +107,13 @@ const Navbar = () => {
           >
             HOME
           </Link>
-          <a
+          <Link
             to="/about"
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             ABOUT
-          </a>
+          </Link>
           <Link
             to="/experties"
             onClick={()=>setIsOpen(false)}

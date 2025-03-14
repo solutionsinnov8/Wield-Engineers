@@ -19,9 +19,9 @@ const Registrations = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="mt-[100px] mb-[50px] max-w-6xl mx-auto px-4">
-      <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
-      OUR REGISTRATIONS
+    <div className="mt-[50px] mb-[50px] max-w-6xl mx-auto px-4">
+      <h2 className="text-xl md:text-3xl font-bold text-center mb-6 text-gray-800">
+      OUR REGISTRATIONS AND PERFORMANCE
       </h2>
 
       {/* Masonry Grid Layout */}

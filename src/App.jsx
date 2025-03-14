@@ -8,6 +8,7 @@ import ExpertiesPage from "./pages/ExpertiesPage";
 import Registrations from "./pages/Registrations";
 import ContactUsPage from "./pages/ContactUsPage";
 import Footer from './components/Footer'
+import RegistrationPage from "./pages/RegistrationPage";
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/experties" element={<ExpertiesPage />} />
-          <Route path="/registration" element={<Registrations />} />
+          <Route path="/registration" element={<RegistrationPage />} />
           <Route path="/contact" element={<ContactUsPage />} />
         </Routes>
         <Footer />

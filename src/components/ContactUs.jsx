@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-[75px]" id="contact">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-5xl font-extrabold text-[#163879] mb-6">Get in Touch</h2>
+        <h2 className="text-3xl md:text-5xl font-extrabold text-[#163879] mb-6">Get in Touch</h2>
         <p className="text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
           We'd love to hear from you! Whether you have a question or need assistance, 
           feel free to reach out via any of the methods below.
@@ -25,7 +25,7 @@ const ContactUs = () => {
           <div className="bg-white shadow-xl rounded-2xl p-8 flex flex-col items-center transition-transform transform hover:scale-105">
             <FaPhoneAlt className="text-5xl text-blue-600 mb-4" />
             <h3 className="text-2xl font-semibold text-gray-900 mb-2">Phone</h3>
-            <p className="text-gray-700 text-lg font-medium">051-8777600</p>
+            <p className="text-gray-700 text-lg font-medium">+9251-5451101</p>
           </div>
 
           {/* Email Card */}

@@ -15,7 +15,7 @@ const AboutUs = () => {
 
         {/* Content Section */}
         <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-start space-y-4 order-1 lg:order-2">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#163879]">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#163879]">
             About Us
           </h2>
           <p className="text-gray-700 text-lg">
