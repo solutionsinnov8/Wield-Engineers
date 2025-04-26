@@ -42,7 +42,7 @@ const Navbar = () => {
                 to="/registration"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
-                REGISTRATIONS
+                 OUR GALLERY
               </Link>
               <Link
                 to="/contact"
@@ -125,7 +125,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
-            GALLERY
+           OUR GALLERY
           </Link>
           <Link
             to="/contact"
