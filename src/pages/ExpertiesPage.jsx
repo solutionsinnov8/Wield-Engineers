@@ -22,7 +22,7 @@ const services = [
         id: 3,
         imgSrc: "/images/img7.jpeg",
         title: "EXCAVATION AND EARTHWORKS",
-        description: "We specialize in bulk excavation, trenching, and land grading using high-performance machinerysuch as Excavators, Bulldozers, Motor Graders, Dump Trucks, and Vibratory Rollers. Our geotechnical engineers utilize GeoStudio and PLAXIS to assess soil stability and optimize earthmoving operations.Whetherforfoundation preparation orlarge- scale site development.",
+        description: "We specialize in bulk excavation, trenching, and land grading using high-performance machinerysuch as Excavators, Bulldozers, Motor Graders, Dump Trucks, and Vibratory Rollers. Our geotechnical engineers utilize GeoStudio and PLAXIS to assess soil stability and optimize earthmoving operations.Whether for foundation preparation orlarge- scale site development.",
 
         buttonText: "Let's Talk",
     },

@@ -24,11 +24,11 @@ const AboutUs = () => {
             completing numerous government and civil projects, we take pride in delivering high quality infrastructure solutions that meet the highest industry standards. <br />
             Backed by a team of highly experienced engineers, diploma holders, and skilled labor,
             Wield Engineers ensures efficiency, professionalism, and innovation in every project.
-            Our financial strength exceeds $100 million, enabling us to take on large-scale
+            Our firm financial condition is very strength, enabling us to take on large-scale
             ventureswith confidence and stability. <br />
             We are fully registered with the <span className="text-black font-bold"> Pakistan Engineering Council (PEC), Securities and
-            Exchange Commission of Pakistan (SECP), Federal Board of Revenue (FBR), Rawalpindi
-            Chamber of Commerce & Industry (RCCI) </span>, and other governing bodies, reinforcing our
+              Exchange Commission of Pakistan (SECP), Federal Board of Revenue (FBR), Rawalpindi
+              Chamber of Commerce & Industry (RCCI) </span>, and other governing bodies, reinforcing our
             commitmentto compliance and excellence.
             At Wield Engineers, we build with precision, integrity, and a vision for sustainable
             development,making us a trusted partnerin the construction industry.
