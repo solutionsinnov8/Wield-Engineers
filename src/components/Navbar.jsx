@@ -39,7 +39,7 @@ const Navbar = () => {
                 OUR EXPERTISE
               </Link>
               <Link
-                to="/registration"
+                to="/gallery"
                 className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                  OUR GALLERY
@@ -121,7 +121,7 @@ const Navbar = () => {
             OUR EXPERTISE
           </Link>
           <Link
-            to="/registration"
+            to="/gallery"
             onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
