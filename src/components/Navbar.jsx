@@ -119,7 +119,7 @@ const Navbar = () => {
             onClick={()=>setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
-            OUR EXPERTISE
+            OUR GALLERY
           </Link>
           <Link
             to="/registration"
