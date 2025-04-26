@@ -95,42 +95,41 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div
-        className={`md:hidden transition-all duration-300 ${
-          isOpen ? "block" : "hidden"
-        }`}
+        className={`md:hidden transition-all duration-300 ${isOpen ? "block" : "hidden"
+          }`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
             to="/"
-            onClick={()=>setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             HOME
           </Link>
           <Link
             to="/about"
-            onClick={()=>setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             ABOUT
           </Link>
           <Link
             to="/experties"
-            onClick={()=>setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
-            OUR GALLERY
+            OUR EXPERTISE
           </Link>
           <Link
             to="/registration"
-            onClick={()=>setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
-            REGISTRATIONS
+            GALLERY
           </Link>
           <Link
             to="/contact"
-            onClick={()=>setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             CONTACT US
