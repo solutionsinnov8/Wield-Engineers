@@ -25,7 +25,7 @@ const ContactUs = () => {
           <div className="bg-white shadow-xl rounded-2xl p-8 flex flex-col items-center transition-transform transform hover:scale-105">
             <FaPhoneAlt className="text-5xl text-blue-600 mb-4" />
             <h3 className="text-2xl font-semibold text-gray-900 mb-2">Phone</h3>
-            <p className="text-gray-700 text-lg font-medium">+9251-5451101</p>
+            <p className="text-gray-700 text-lg font-medium">051-5451102</p>
           </div>
 
           {/* Email Card */}

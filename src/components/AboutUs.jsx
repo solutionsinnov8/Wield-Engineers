@@ -19,7 +19,7 @@ const AboutUs = () => {
             About Us
           </h2>
           <p className="text-gray-700 text-lg">
-            Founded in 2013, <span className="text-black font-bold">Wield Engineers</span> has established itself as a reputable and dynamic
+            Founded in 1993, <span className="text-black font-bold">Wield Engineers</span> has established itself as a reputable and dynamic
             contractor and construction firm. With a proven track record of successfully
             completing numerous government and civil projects, we take pride in delivering high quality infrastructure solutions that meet the highest industry standards. <br />
             Backed by a team of highly experienced engineers, diploma holders, and skilled labor,
